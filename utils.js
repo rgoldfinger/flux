@@ -7,7 +7,7 @@
  * of patent rights can be found in the PATENTS file in the same directory.
  */
 
-module.exports.Container = require('./lib/FluxContainer');
-module.exports.Mixin = require('./lib/FluxMixinLegacy');
-module.exports.ReduceStore = require('./lib/FluxReduceStore');
-module.exports.Store = require('./lib/FluxStore');
+module.exports.Container = require('./src/container/FluxContainer');
+module.exports.Mixin = require('./src/FluxMixinLegacy');
+module.exports.ReduceStore = require('./src/stores/FluxReduceStore');
+module.exports.Store = require('./src/stores/FluxStore');
